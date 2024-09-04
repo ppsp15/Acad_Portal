@@ -2,6 +2,8 @@
 // Start session to access session variables
 session_start();
 
+//just a little change for commit
+
 // Check if user is logged in
 if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
     // Database connection parameters
